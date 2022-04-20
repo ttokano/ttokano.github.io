@@ -7,17 +7,32 @@
       a {
         color: red;
       }
-      div {
+      #exec-bio {
+         background-color: lightgray;
+      }
+      #fore-ora {
+        color: orange;
+      }
+      .bio-box {
         border: 1px solid black;
       }
-      div a {
+      .bio-box a {
         color: green;
       }
-      li a {
-        color: purple;
+      .exec-azure {
+        background-color: azure;
       }
-      li {
-        border: 1px solid blue;
+      .alert {
+        background: red;
+      }
+      #exec-bio.alert {
+        background: red;
+      }
+      .bio-box {
+        width: 75%;
+      }
+      .bio-box {
+        width: 50%;
       }
     </style>
   </head>
@@ -35,16 +50,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box alert">
       <a href="https://example.com/"">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box alert">
       <a href="https://example.com/"">I'm a link</a>
     </div>
   </body>
